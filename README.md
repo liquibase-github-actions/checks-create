@@ -1,7 +1,7 @@
 # Liquibase Checks Create Action
 Official GitHub Action to run Liquibase Checks Create in your GitHub Action Workflow. For more information on how checks create works visit the [Official Liquibase Documentation](https://docs.liquibase.com/commands/home.html).
 ## Checks Create
-null
+
 ## Usage
 ```yaml
 steps:
