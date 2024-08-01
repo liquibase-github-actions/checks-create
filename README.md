@@ -6,7 +6,7 @@ Official GitHub Action to run Liquibase Checks Create in your GitHub Action Work
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/checks-create@v4.29.0
+- uses: liquibase-github-actions/checks-create@v4.29.1
   with:
     # One or more comma-separated relative path(s) to the checks-settings files (or to a directory of files) to be bundled into the checks-package. If the value is a directory, all files will be added to the "checks-package-name" object, but not recursively.
     # string
@@ -35,7 +35,7 @@ The liquibase checks create action accepts all valid liquibase global options as
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/checks-create@v4.29.0
+  - uses: liquibase-github-actions/checks-create@v4.29.1
     with:
       packageContents: ""
       packageName: ""
