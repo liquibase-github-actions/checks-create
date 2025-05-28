@@ -6,7 +6,7 @@ The create subcommand allows you to create a new YAML checks package file.
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/checks-create@v4.31.1
+- uses: liquibase-github-actions/checks-create@v4.32.0
   with:
     # One or more comma-separated relative path(s) to the checks-settings files (or to a directory of files) to be bundled into the checks-package. If the value is a directory, all files will be added to the "checks-package-name" object, but not recursively.
     # string
@@ -35,7 +35,7 @@ The liquibase checks create action accepts all valid liquibase global options as
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/checks-create@v4.31.1
+  - uses: liquibase-github-actions/checks-create@v4.32.0
     with:
       packageContents: ""
       packageName: ""
